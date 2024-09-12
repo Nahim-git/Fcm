@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCM Practice </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="nav"> <img src="img/nv2.png" alt="Naveber"></div>
+    <div id="cover"><img src="img/Banner.jpg" width="100%" height="220px" alt="Cover Photo"></div>
+    <h1>About Jobian</h1>
+
+    <div id="about">
+        <div id="descreption">
+            <p>At Jovian, we're on a mission to build
+                the world's most highly reputed technical
+                university, and we're building it completely
+                online. We offer several beginner friendly
+                courses that are taken by 300,000+ registered
+                users.
+                We also offer 2 industry-focused bootcamps:
+            <ol>
+                <li> <a href="#">Jovian Full Stack Developer Bootcamp</a></li>
+                <li><a href="#">Jovian Data Science Bootcamp</a></li>
+            </ol>
+            </p>
+        </div>
+        <div id="team"><img src="img/Team.jpg" alt="Team wowrking"></div>
+    </div>
+    <div id="ptable">
+        <table border="1">
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Sports</th>
+            </tr>
+            <tr>
+                <td>Rahat</td>
+                <td>13</td>
+                <td>Football</td>
+            </tr>
+            <tr>
+                <td>Raif</td>
+                <td>9</td>
+                <td>Football</td>
+            </tr>
+            <td>Nazmul</td>
+            <td>24</td>
+            <td>Football</td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="jobtable">
+        <table border="1">
+            <tr>
+                <th rowspan="2">Job Title</th>
+                <th colspan="2">Location</th>
+                <th rowspan="2">Salary</th>
+                <th rowspan="2">Posted On</th>
+            </tr>
+            <tr>
+                <th>City</th>
+                <th>Country</th>
+            </tr>
+            <tr>
+                <td>Frontend Developer</td>
+                <td>Dhaka</td>
+                <td>Bangladesh</td>
+                <td>$12,000</td>
+                <td>Mar 3,2023</td>
+            </tr>
+            <tr>
+                <td>Backend Developer</td>
+                <td>New Delhi</td>
+                <td>India</td>
+                <td>$15,000</td>
+                <td>Feb 1,2023</td>
+            </tr>
+
+            <tr>
+                <td>Full-Stack Developer</td>
+                <td>San Francisco</td>
+                <td>USA</td>
+                <td>$75,000</td>
+                <td>Dec 22,2022</td>
+            </tr>
+            <tr>
+                <td>MI Engineer</td>
+                <td colspan="2">Remote</td>
+                <td>$50,000</td>
+                <td>Sep 29,2022</td>
+            </tr>
+        </table>
+    </div>
+    <div id="application">
+        <h2>Application Form</h2>
+        <form id="appliform">
+            <div class="applinpute">
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="Name" placeholder="Nahim Sarder" required>
+            </div>
+            <div class="applinpute">
+                <label for="email">Email</label><br>
+                <input type="email" name="Email" id="email" placeholder="rrdex@email.com" required>
+            </div>
+            <div class="applinpute">
+                <label for="mobile">Mobile Number</label><br>
+                <input type="text" name="Mobile Number" id="mobile" placeholder="+8801762316751" required>
+            </div>
+            <div class="applinpute">
+                <label for="dob">Date Of Birth</label><br>
+                <input type="date" name="Date Of Birth" id="dob" placeholder="mm/dd/yyyy" required>
+            </div>
+            <div class="applinpute">
+                <label for="Option">Position Applied For</label> <br>
+                <select name="Option" id="Option" required>
+                    <option value="Select An Option">Select An Option</option>
+                    <option value="Frontend Developer">Frontend Developer</option>
+                    <option value="Backend Developer">Backend Developer</option>
+                    <option value="Full-Stack Developer">Full-Stack Developer</option>
+                    <option value="MI Engineer">MI Engineer</option>
+                </select>
+            </div>
+            <div class="applinpute">
+                <label for="resume">Resume</label><br>
+                <input type="file" name="Resume" id="resume" accept=".pdf,.doc,.docx" required>
+            </div>
+            <div class="applinpute">
+                <label for="Coverletter">Coverletter</label> <br>
+                <textarea name="coverletter" id="Coverletter" rows="6"
+                    placeholder="Explain what makes you suitable for the job.."></textarea>
+            </div>
+            <div class="applinpute">
+                <label for="checkbox">
+                    <input type="checkbox" name="Checkbox" id="checkbox"> I agree to the terms and conditions!
+                </label>
+            </div>
+            <div class="applinpute">
+                <input id="submit" type="submit" value="Submit Application">
+            </div>
+        </form>
+    </div>
+    <div id="footer">
+        <p>@ Copy Wright By NAHIM </p>
+    </div>
+
+
+
+</body>
+</html>

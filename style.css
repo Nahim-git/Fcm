@@ -1,0 +1,231 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+    font-size: 1rem;
+    color: #444444;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: sans-serif;
+    font-weight: 600;
+    counter-reset: #222222;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.25rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+#nav {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(221, 212, 199);
+}
+
+#nav img {
+    height: 30px;
+}
+
+#cover {
+    height: 220px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+    color: #222222;
+    font-weight: 600;
+}
+
+#about {
+    background-color: rgb(218, 233, 233);
+    display: flex;
+    max-width: 80%;
+    margin: 0 auto;
+    height: 253.667px;
+    padding-left: 8px;
+    border-radius: 10px;
+}
+
+p {
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #3B82F6;
+}
+
+a:hover {
+    color: #1D4ED8;
+}
+
+#descreption {
+    width: 50%;
+    padding: 15px;
+    margin: 5px;
+    font-family: sans-serif;
+    font-size: 1.25rem;
+}
+
+#team {
+    width: 50%;
+    float: left;
+    padding-left: 5px;
+}
+
+#team img {
+    height: 253.667px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#ptable {
+    background-color: aliceblue;
+    margin: 10px auto;
+    width: 80%;
+    border-radius: 50% 10%;
+    padding: 5px;
+}
+
+#ptable table {
+    margin: 10px auto;
+    border-collapse: collapse;
+    padding: 8px;
+    border: 2px solid#cfb6b6;
+    text-align: center;
+}
+
+#ptable table tr:nth-child(odd) {
+    background-color: #dedefe;
+}
+
+#ptable table tr th {
+    padding: 6px;
+}
+
+#ptable table tr td {
+    padding: 10px;
+}
+
+#jobtable {
+    width: 80%;
+    margin: 20px auto;
+    background-color: rgb(245, 251, 255);
+    border-radius: 30% 10%;
+}
+
+#jobtable table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    border: 2px solid #cfb6b6;
+}
+
+#jobtable table th {
+    text-align: center;
+    padding: 10px;
+}
+
+#jobtable table td {
+    background-color: rgb(231, 239, 245);
+    padding: 9px;
+    border-radius: 50% 10%;
+    text-align: center;
+}
+
+#application {
+    width: 80%;
+    margin: 30px auto;
+    background-color: #d2e3fe;
+    padding: 10px 0px 15px 15px;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#application h2 {
+    text-align: center;
+    font-weight: 750;
+    color: #222222;
+}
+
+#appliform {
+    padding: 20px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.applinpute {
+    padding: 10px;
+    background-color: #868d9f;
+}
+
+.applinpute:hover {
+    background-color: #109494;
+    width: 800px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#submit {
+    padding: 5px;
+    color: rgb(24, 8, 74);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#footer {
+    width: 80%;
+    background-color: hsla(186, 73%, 30%, 0.794);
+    height: 40px;
+    border-radius: 25%;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#footer p {
+    color: aliceblue;
+    font-weight: 700;
+    margin: 5px auto;
+    text-align: center;
+    padding: 10px;
+}
+
+#footer p:hover {
+    color: rgb(250, 0, 0);
+    font-weight: 700;
+    margin: 5px auto;
+    text-align: center;
+    padding: 10px;
+    cursor: no-drop;
+}
